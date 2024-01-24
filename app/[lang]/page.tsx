@@ -10,7 +10,7 @@ export default async function Home({
   const dictionary = await getDictionary(lang);
 
   return (
-    <section className="bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <section className="bg-white px-6 py-24 opacity-10 sm:py-32 lg:px-8">
       <figure className="mx-auto max-w-2xl">
         <p className="sr-only">{`5 ${dictionary.of} 5 ${dictionary.stars}`}</p>
         <div className="flex gap-x-1 text-indigo-600">

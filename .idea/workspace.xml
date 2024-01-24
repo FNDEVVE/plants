@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="Start (">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="Temporary fix for &quot;public&quot; images not working">
+      <change afterPath="$PROJECT_DIR$/app/[lang]/template/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[lang]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[lang]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +19,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FNDEVVE"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a8f653ba-ee93-4832-add6-47c36164f00f" />
+        <option name="url" value="https://github.com/FNDEVVE/plants.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/fndevve/GIT/plants/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "ts.external.directory.path": "/Users/fndevve/GIT/plants/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,6 +80,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/[lang]/template" />
       <recent name="$PROJECT_DIR$/app/[lang]" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -84,14 +96,36 @@
       <updated>1706094382872</updated>
       <workItem from="1706094383975" duration="1668000" />
       <workItem from="1706096066080" duration="356000" />
-      <workItem from="1706096434046" duration="46000" />
+      <workItem from="1706096434046" duration="163000" />
+      <workItem from="1706096633009" duration="8529000" />
     </task>
+    <task id="LOCAL-00001" summary="Start (Tailwind UI + tłumaczenie)">
+      <option name="closed" value="true" />
+      <created>1706096569926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706096569926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Temporary fix for &quot;public&quot; images not working">
+      <option name="closed" value="true" />
+      <created>1706103760997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706103760997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Start (Tailwind UI + tłumaczenie)" />
+    <MESSAGE value="Temporary fix for &quot;public&quot; images not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Temporary fix for &quot;public&quot; images not working" />
   </component>
 </project>
