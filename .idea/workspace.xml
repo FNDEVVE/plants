@@ -4,68 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="Template Header + &quot;Features&quot; done">
+    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="WebStorm files">
       <change afterPath="$PROJECT_DIR$/components/rating.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Alabama.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Alaska.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_American_Samoa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Arizona.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Arkansas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_California.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Connecticut.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Delaware.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Florida.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Georgia_(U.S._state).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Guam.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Hawaii.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Idaho.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Illinois.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Indiana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Iowa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Kansas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Kentucky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Louisiana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Maine.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Maryland.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Massachusetts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Michigan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Minnesota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Mississippi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Missouri.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Montana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Nebraska.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Nevada.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Hampshire.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Jersey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Mexico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_New_York.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_North_Carolina.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_North_Dakota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Ohio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Oklahoma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Oregon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Pennsylvania.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Puerto_Rico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Rhode_Island.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_South_Carolina.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_South_Dakota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Tennessee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Texas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Utah_(2011-present).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Vermont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Virginia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Washington.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_West_Virginia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Wisconsin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_Wyoming.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_the_District_of_Columbia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_the_Northern_Mariana_Islands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_flags/Flag_of_the_United_States_Virgin_Islands.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[lang]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[lang]/template/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/template/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +103,7 @@
       <workItem from="1706094383975" duration="1668000" />
       <workItem from="1706096066080" duration="356000" />
       <workItem from="1706096434046" duration="163000" />
-      <workItem from="1706096633009" duration="16442000" />
+      <workItem from="1706096633009" duration="16723000" />
     </task>
     <task id="LOCAL-00001" summary="Start (Tailwind UI + tłumaczenie)">
       <option name="closed" value="true" />
@@ -185,7 +129,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706108388445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US flags">
+      <option name="closed" value="true" />
+      <created>1706177769659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706177769659</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Colors updated">
+      <option name="closed" value="true" />
+      <created>1706177792859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706177792859</updated>
+    </task>
+    <task id="LOCAL-00006" summary="WebStorm files">
+      <option name="closed" value="true" />
+      <created>1706177808909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706177808909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +165,9 @@
     <MESSAGE value="Start (Tailwind UI + tłumaczenie)" />
     <MESSAGE value="Temporary fix for &quot;public&quot; images not working" />
     <MESSAGE value="Template Header + &quot;Features&quot; done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template Header + &quot;Features&quot; done" />
+    <MESSAGE value="US flags" />
+    <MESSAGE value="Colors updated" />
+    <MESSAGE value="WebStorm files" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebStorm files" />
   </component>
 </project>

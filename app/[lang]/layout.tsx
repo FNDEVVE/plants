@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body
-        className={`${inter.className} ${league_spartan.variable} bg-green-50/50`}
+        className={`${inter.className} ${league_spartan.variable} bg-green-25`}
       >
         {children}
       </body>
