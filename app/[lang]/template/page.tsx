@@ -166,7 +166,7 @@ export default async function Template({
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
             <div className="px-6 lg:px-0">
               <div className="mx-auto max-w-3xl lg:mx-0 lg:max-w-lg xl:max-w-none">
-                <h2 className="text-center font-display text-lg font-semibold uppercase tracking-wide text-purple-700 md:text-left">
+                <h2 className="text-center font-display text-xl font-semibold uppercase tracking-wide text-purple-600 md:text-left">
                   Quality, service and selection
                 </h2>
                 <p className="mt-4 text-center text-3xl font-bold tracking-tight text-green-900 sm:text-4xl md:text-left">
@@ -194,22 +194,22 @@ export default async function Template({
               </div>
             </div>
           </div>
-          <dl className="mt-20 grid grid-cols-1 gap-12 px-6 md:grid-cols-3 lg:px-0">
+          <dl className="mt-20 grid grid-cols-1 gap-10 px-6 md:grid-cols-3 lg:px-0">
             {features.map((feature) => (
               <div
                 key={feature.name}
                 className="mx-auto flex flex-col sm:max-w-md md:max-w-none"
               >
-                <dt className="mb-4 flex items-center justify-center gap-x-2 text-xl font-semibold leading-7 text-green-900 md:justify-start md:gap-x-4">
-                  <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-green-600">
+                <dt className="mb-4 flex items-center justify-center gap-x-1.5 font-display text-xl font-semibold uppercase tracking-wide text-purple-600 md:justify-start md:gap-x-3">
+                  <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-purple-600">
                     <feature.icon
-                      className="size-6 text-green-50"
+                      className="size-6 text-purple-50"
                       aria-hidden="true"
                     />
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-balance text-center text-base leading-8 text-green-800 md:text-left">
+                <dd className="mt-1 flex flex-auto flex-col text-balance text-center text-base leading-8 text-gray-800 md:text-left">
                   <p className="flex-auto">{feature.description}</p>
                 </dd>
               </div>
@@ -248,7 +248,7 @@ export default async function Template({
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="font-display text-lg font-semibold uppercase tracking-wide text-purple-700">
+            <h2 className="font-display text-xl font-semibold uppercase tracking-wide text-purple-600">
               Reviews from our clients
             </h2>
             <p className="mt-4 text-3xl font-bold tracking-tight text-green-900 sm:text-4xl">
@@ -316,7 +316,7 @@ export default async function Template({
                           <Rating
                             rating={5}
                             centered={false}
-                            className="mt-2"
+                            className="my-3"
                           />
                         </blockquote>
                         <figcaption className="relative flex items-center gap-x-4">

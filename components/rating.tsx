@@ -18,7 +18,7 @@ export default function Rating({
       >
         {[...Array(5)].map((_, index) => (
           <StarIcon
-            className={`${big ? "size-6" : "size-5"} flex-none ${index < rating ? "text-green-500" : "text-green-100"}`}
+            className={`${big ? "size-6" : "size-5"} flex-none ${index < rating ? "text-purple-600" : "text-purple-100"}`}
             key={index}
             aria-hidden="true"
           />
