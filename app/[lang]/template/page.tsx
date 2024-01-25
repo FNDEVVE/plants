@@ -2,12 +2,39 @@ import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/dictionaries/get-dictionary";
 import Image from "next/image";
 import Rating from "@/components/rating";
+import {
+  GlobeEuropeAfricaIcon,
+  HomeModernIcon,
+  WrenchScrewdriverIcon,
+} from "@heroicons/react/24/outline";
 export default async function Template({
   params: { lang },
 }: {
   params: { lang: Locale };
 }) {
   const dictionary = await getDictionary(lang);
+
+  const features = [
+    {
+      name: "Plant Variety",
+      description:
+        "Explore our wide selection of plants, from local varieties to exotic species, perfect for any garden style. Our collection caters to all preferences, ensuring you find just what you need for your unique landscape.",
+      icon: GlobeEuropeAfricaIcon,
+    },
+    {
+      name: "Landscaping Services",
+      description:
+        "Our comprehensive landscaping services cover everything from garden installation to irrigation system maintenance. Trust our expertise to keep your outdoor spaces thriving and beautiful throughout the year.",
+      icon: WrenchScrewdriverIcon,
+    },
+    {
+      name: "Outdoor Enhancements",
+      description:
+        "Elevate your outdoor space with our range of barns, chicken coops, and greenhouses. Each product is designed to enhance your garden's functionality and aesthetic, creating the perfect backyard retreat",
+      icon: HomeModernIcon,
+    },
+  ];
+
   const featuredTestimonial = {
     body: "Visited Garden City in Phoenix and was amazed by their selection, especially the fruit trees. The staff were knowledgeable and helpful, guiding me to the perfect choices for my garden. I also appreciated their efficient installation service for my new drip system. Fair prices and great service – they've earned a repeat customer in me!",
     author: {
@@ -16,6 +43,7 @@ export default async function Template({
       imageUrl: "/us_flags/Flag_of_Utah_(2011-present).svg",
     },
   };
+
   const testimonials = [
     [
       [
@@ -132,8 +160,8 @@ export default async function Template({
         </div>
       </section>
       {/*HEADER END*/}
-      {/*MAP + CONTACT START*/}
-      <div className="overflow-hidden py-24 sm:py-32">
+      {/*MAP + CONTACT + FEATURES START*/}
+      <div className="overflow-hidden pb-12 pt-24 sm:pb-16 sm:pt-32">
         <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
             <div className="px-6 lg:px-0">
@@ -144,7 +172,7 @@ export default async function Template({
                 <p className="mt-4 text-center text-3xl font-bold tracking-tight text-green-900 sm:text-4xl md:text-left">
                   Your One-Stop Landscape Solution
                 </p>
-                <p className="mt-4 text-balance text-center text-lg leading-8 text-green-800 md:text-left">
+                <p className="mt-4 text-balance text-center text-lg leading-9 text-green-800 md:text-left">
                   We&apos;re not just about plants. Alongside our vast range of
                   locally-grown greenery, we offer everything for your
                   landscaping needs. This includes installation services for
@@ -155,8 +183,8 @@ export default async function Template({
                 </p>
               </div>
             </div>
-            <div className="h-full shadow-xl md:rounded-xl lg:px-0">
-              <div className="mx-auto size-full min-h-96 max-w-3xl md:min-h-0 lg:mx-0 lg:max-w-lg xl:max-w-none">
+            <div className="mx-auto size-full max-w-3xl shadow-xl md:rounded-xl lg:px-0">
+              <div className="mx-auto size-full min-h-96 lg:mx-0 lg:min-h-0 lg:max-w-3xl xl:max-w-none">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735216.6528073017!2d-111.87692468468683!3d33.58616498607751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b643426b2c5e9%3A0x1ee95355cee21499!2sRichard&#39;s%20Garden%20Center%2C%20LLC.!5e0!3m2!1spl!2spl!4v1706105500790!5m2!1spl!2spl"
                   loading="lazy"
@@ -166,13 +194,34 @@ export default async function Template({
               </div>
             </div>
           </div>
+          <dl className="mt-20 grid grid-cols-1 gap-12 px-6 md:grid-cols-3 lg:px-0">
+            {features.map((feature) => (
+              <div
+                key={feature.name}
+                className="mx-auto flex flex-col sm:max-w-md md:max-w-none"
+              >
+                <dt className="mb-4 flex items-center justify-center gap-x-2 text-xl font-semibold leading-7 text-green-900 md:justify-start md:gap-x-4">
+                  <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-green-600">
+                    <feature.icon
+                      className="size-6 text-green-50"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  {feature.name}
+                </dt>
+                <dd className="mt-1 flex flex-auto flex-col text-balance text-center text-base leading-8 text-green-800 md:text-left">
+                  <p className="flex-auto">{feature.description}</p>
+                </dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </div>
-      {/*MAP + CONTACT END*/}
+      {/*MAP + CONTACT + FEATURES END*/}
       {/*/!*FEATURED PRODUCTS START*!/*/}
       {/*/!*FEATURED PRODUCTS END*!/*/}
       {/*TESTIMONIALS START*/}
-      <div className="relative isolate pb-32 pt-24 sm:pt-32">
+      <div className="relative isolate pb-32 pt-12 sm:pt-16">
         <div
           className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
           aria-hidden="true"
@@ -211,13 +260,18 @@ export default async function Template({
               garden we touch.
             </p>
           </div>
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 leading-6 text-gray-900 sm:mt-12 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+          <div className="mx-auto mt-10 grid max-w-3xl grid-cols-1 grid-rows-1 gap-8 leading-6 text-gray-900 sm:mt-12 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure className="rounded-2xl bg-gray-50 shadow-xl ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
               <blockquote className="text-balance p-6 pb-2 text-lg font-medium leading-7 tracking-tight text-green-900 sm:p-10 sm:pb-4 sm:text-xl sm:leading-8">
                 <p>{`“${featuredTestimonial.body}”`}</p>
-                <Rating rating={5} big={true} centered={false} />
+                <Rating
+                  rating={5}
+                  big={true}
+                  centered={false}
+                  className="mt-4"
+                />
               </blockquote>
-              <figcaption className="flex flex-wrap items-center gap-4 px-6 pb-4 sm:flex-nowrap">
+              <figcaption className="flex flex-wrap items-center gap-4 px-6 pb-4 sm:flex-nowrap sm:px-10 sm:pb-10">
                 <div className="relative aspect-[4/3] h-12 shadow-lg sm:h-16">
                   <Image
                     src={featuredTestimonial.author.imageUrl}
@@ -257,8 +311,8 @@ export default async function Template({
                         key={index}
                         className="rounded-2xl bg-gray-50 p-6 pb-4 shadow-lg ring-1 ring-gray-900/5"
                       >
-                        <blockquote className="mb-4 text-balance text-sm leading-6 text-green-900 sm:text-base">
-                          <p>{`“${testimonial.body}”`}</p>{" "}
+                        <blockquote className="mb-2 text-balance leading-6 text-green-900 sm:text-base">
+                          <p>{`“${testimonial.body}”`}</p>
                           <Rating
                             rating={5}
                             centered={false}
