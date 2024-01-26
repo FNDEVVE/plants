@@ -2,6 +2,7 @@ import { i18n, type Locale } from "@/i18n-config";
 import type { Metadata } from "next";
 import { Inter, League_Spartan } from "next/font/google";
 import "../globals.css";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const league_spartan = League_Spartan({
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body
-        className={`${inter.className} ${league_spartan.variable} bg-green-25`}
+        className={`${inter.className} ${league_spartan.variable} bg-green-25 antialiased`}
       >
         {children}
       </body>
