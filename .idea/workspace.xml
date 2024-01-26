@@ -4,134 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="Added second color">
-      <change afterPath="$PROJECT_DIR$/app/components/about/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/about/google_maps.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/featured-plants.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/features.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/reviews.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/util.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bonsai-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bonsai-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bonsai-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bonsai-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Alabama.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Alaska.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_American_Samoa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Arizona.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Arkansas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_California.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Colorado.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Connecticut.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Delaware.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Florida.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Georgia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Guam.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Hawaii.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Idaho.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Illinois.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Indiana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Iowa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Kansas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Kentucky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Louisiana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Maine.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Maryland.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Massachusetts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Michigan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Minnesota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Mississippi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Missouri.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Montana.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Nebraska.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Nevada.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_New_Hampshire.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_New_Jersey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_New_Mexico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_New_York.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_North_Carolina.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_North_Dakota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Ohio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Oklahoma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Oregon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Pennsylvania.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Puerto_Rico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Rhode_Island.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_South_Carolina.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_South_Dakota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Tennessee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Texas.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Utah.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Vermont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Virginia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Washington.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_West_Virginia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Wisconsin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_Wyoming.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_the_District_of_Columbia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_the_Northern_Mariana_Islands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/us_states/Flag_of_the_United_States_Virgin_Islands.svg" afterDir="false" />
+    <list default="true" id="8bda92f9-b63d-472e-93ca-c1886ff03888" name="Changes" comment="Refactored code - everything is now modular.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/template/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/template/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Alabama.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Alaska.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_American_Samoa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Arizona.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Arkansas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_California.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Connecticut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Delaware.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Florida.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Georgia_(U.S._state).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Guam.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Hawaii.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Idaho.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Illinois.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Indiana.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Iowa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Kansas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Kentucky.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Louisiana.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Maine.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Maryland.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Massachusetts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Michigan.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Minnesota.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Mississippi.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Missouri.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Montana.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Nebraska.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Nevada.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Hampshire.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Jersey.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_New_Mexico.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_New_York.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_North_Carolina.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_North_Dakota.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Ohio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Oklahoma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Oregon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Pennsylvania.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Puerto_Rico.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Rhode_Island.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_South_Carolina.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_South_Dakota.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Tennessee.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Texas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Utah_(2011-present).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Vermont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Virginia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Washington.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_West_Virginia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Wisconsin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_Wyoming.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_the_District_of_Columbia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_the_Northern_Mariana_Islands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/us_flags/Flag_of_the_United_States_Virgin_Islands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[lang]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaries/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaries/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaries/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +105,7 @@
       <workItem from="1706096066080" duration="356000" />
       <workItem from="1706096434046" duration="163000" />
       <workItem from="1706096633009" duration="26837000" />
-      <workItem from="1706256877055" duration="7767000" />
+      <workItem from="1706256877055" duration="7844000" />
     </task>
     <task id="LOCAL-00001" summary="Start (Tailwind UI + tłumaczenie)">
       <option name="closed" value="true" />
@@ -301,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706181236372</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactored code - everything is now modular.">
+      <option name="closed" value="true" />
+      <created>1706264700707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706264700707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +216,7 @@
     <MESSAGE value="Reviews finished" />
     <MESSAGE value="Features added" />
     <MESSAGE value="Added second color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added second color" />
+    <MESSAGE value="Refactored code - everything is now modular." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code - everything is now modular." />
   </component>
 </project>
